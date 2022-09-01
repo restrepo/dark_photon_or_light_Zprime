@@ -167,7 +167,7 @@ MAh2(2)=MVZp2*RXiZp
 MHm(1)=MVWm*sqrt(RXiWm)
 MHm2(1)=MVWm2*RXiWm
 TW = ACos(Abs(ZZ(1,1)))
-TWp = ACos(Abs(ZZ(3,3)))
+TWp = ACos(Abs(ZZ(3,2)))
 Iname = Iname - 1 
  
 End Subroutine  TreeMasses 
@@ -1475,12 +1475,12 @@ Do i1=1,3
  End if 
 End Do 
  
-MVZ = VPVZVZp(2) 
-MVZ2 = VPVZVZp2(2) 
-MVZp = VPVZVZp(3) 
-MVZp2 = VPVZVZp2(3) 
+MVZ = VPVZVZp(3) 
+MVZ2 = VPVZVZp2(3) 
+MVZp = VPVZVZp(2) 
+MVZp2 = VPVZVZp2(2) 
 TW = ACos(Abs(ZZ(1,1)))
-TWp = ACos(Abs(ZZ(3,3)))
+TWp = ACos(Abs(ZZ(3,2)))
 
  Iname = Iname - 1 
  
@@ -2571,10 +2571,10 @@ Do i1=1,3
  End if 
 End Do 
  
-MVZ = VPVZVZp(2) 
-MVZ2 = VPVZVZp2(2) 
-MVZp = VPVZVZp(3) 
-MVZp2 = VPVZVZp2(3) 
+MVZ = VPVZVZp(3) 
+MVZ2 = VPVZVZp2(3) 
+MVZp = VPVZVZp(2) 
+MVZp2 = VPVZVZp2(2) 
 
  Iname = Iname - 1 
  
